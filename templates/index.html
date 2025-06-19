@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Parking System</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🚗 Smart Parking System</h1>
+            <p>Real-Time Parking Slot Detection</p>
+        </header>
+
+        <main>
+            <div class="video-box">
+                <img src="{{ url_for('video_feed') }}" alt="Live Parking Feed">
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Smart Parking System | Designed by Ravindu Weerakoon</p>
+        </footer>
+    </div>
+</body>
+</html>
