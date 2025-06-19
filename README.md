@@ -60,7 +60,7 @@ parking_project/
 ### 1. Clone & Setup Environment
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Ravindu-Sampath-Weerakoon/parking-lot-monitoring-opencv.git
 cd parking_project
 conda env create -f environment.yml
 conda activate parking_env
