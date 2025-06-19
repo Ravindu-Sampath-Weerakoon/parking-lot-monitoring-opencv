@@ -13,7 +13,7 @@
 
 ## 📸 Demo
 
-![Parking Demo](https://user-images.githubusercontent.com/placeholder/demo.gif)
+![Parking Demo](images/demo.png)
 <sup><em>(Replace with your own demo GIF or screenshot)</em></sup>
 
 ---
