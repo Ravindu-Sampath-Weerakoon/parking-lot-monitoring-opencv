@@ -91,8 +91,7 @@ Visit [http://127.0.0.1:5000/](http://127.0.0.1:5000/) in your browser.
 3. **Visualization:**  
    Results are overlaid and streamed to the web interface.
 
-![System Diagram](https://user-images.githubusercontent.com/placeholder/diagram.png)
-<sup><em>(Replace with your own system diagram if available)</em></sup>
+
 
 ---
 
