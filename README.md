@@ -14,7 +14,7 @@
 ## 📸 Demo
 
 ![Parking Demo](images/demo.png)
-<sup><em>(Replace with your own demo GIF or screenshot)</em></sup>
+
 
 ---
 
