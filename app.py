@@ -1,5 +1,5 @@
 from flask import Flask, Response, render_template
-from backend_image_processing.detector import generate_detected_frames  # ✅ updated import
+from backend_image_processing.detector import generate_detected_frames  
 
 app = Flask(__name__)
 
