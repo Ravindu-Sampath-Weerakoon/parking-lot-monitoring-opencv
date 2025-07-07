@@ -1,3 +1,33 @@
+"""
+Utility functions for image preprocessing and parking slot detection.
+Functions:
+---------
+process_frame(frame, roi_data, slot_history, white_pixel_thresh_free, white_pixel_thresh_occupied, history_size)
+    Processes a single video frame to detect parking slot occupancy.
+    Parameters:
+        frame (np.ndarray): The input image frame (BGR).
+        roi_data (list): List of regions of interest (ROIs) representing parking slots.
+        slot_history (list): List of historical occupancy states for each slot.
+        white_pixel_thresh_free (int): White pixel threshold to consider a slot as free.
+        white_pixel_thresh_occupied (int): White pixel threshold to consider a slot as occupied.
+        history_size (int): Number of frames to consider for voting on slot status.
+    Returns:
+        available (int): Number of available (free) parking slots.
+        slot_statuses (list): List of tuples (roi, white_pixel_count, occupied_status) for each slot.
+preprocess_frame(frame)
+    Preprocesses the input frame for parking slot detection.
+    Steps:
+        - Converts the frame to grayscale.
+        - Applies Gaussian blur to reduce noise.
+        - Applies adaptive thresholding to segment the image.
+        - Applies median blur to further reduce noise.
+        - Dilates the image to enhance features.
+    Parameters:
+        frame (np.ndarray): The input image frame (BGR).
+    Returns:
+        dilated (np.ndarray): The preprocessed binary image.
+"""
+
 import cv2
 import numpy as np
 
