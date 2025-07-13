@@ -3,7 +3,7 @@ import json
 import os
 
 # === Load video and grab a reference frame ===
-video_path = "./video/carPark.mp4"
+video_path = "../video/carPark.mp4"
 cap = cv2.VideoCapture(video_path)
 
 cap.set(cv2.CAP_PROP_POS_FRAMES, 50)  # Use a good middle frame
